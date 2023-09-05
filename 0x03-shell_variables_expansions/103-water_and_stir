@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=base water;obase=base stir;$WATER+$STIR" | dc
+echo $[0x$WATER+0x$STIR]
